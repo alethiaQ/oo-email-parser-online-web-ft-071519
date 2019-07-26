@@ -13,7 +13,7 @@ class EmailAddressParser
 
   def parse
     split = @emails.split(/[," "]/)
-
+  end
 
 
 
