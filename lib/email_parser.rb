@@ -8,8 +8,14 @@ class EmailAddressParser
   attr_reader :parse
 
   def initialize(emails)
-    @emails = emails.to_i
+    @emails = emails
   end
 
-  def
+  def parse
+    split = @emails.split(", ", " ")
+    
+
+
+
+
 end
